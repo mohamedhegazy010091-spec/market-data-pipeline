@@ -1,6 +1,70 @@
-__pycache__/
+# ===============================
+
+# Python & Jupyter
+
+# ===============================
+
+**pycache**/
+*.pyc
+*.pyo
+*.pyd
 .ipynb_checkpoints/
-.env
-*.csv
-*.zip
+
+# ===============================
+
+# Virtual Environments
+
+# ===============================
+
+venv/
+.env/
+.venv/
+
+# ===============================
+
+# Logs
+
+# ===============================
+
+*.log
+app.log
+
+# ===============================
+
+# OS / Editor Files
+
+# ===============================
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ===============================
+
+# Large / Temporary Data Files
+
+# ===============================
+
 *.rar
+*.zip
+
+# ===============================
+
+# Optional: Raw Data Backups
+
+# (Keep CSVs that are final outputs)
+
+# ===============================
+
+data_exports/
+temp/
+backup/
+
+# ===============================
+
+# Power BI Cache (keep .pbix)
+
+# ===============================
+
+*.pbix~
