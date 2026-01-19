@@ -1,0 +1,35 @@
+2026-01-11 14:51:50,002 | ERROR | Error accessing NSE data for symbol: name 'yf' is not defined
+2026-01-11 14:51:50,005 | ERROR | Error accessing Forex data for symbol: name 'yf' is not defined
+2026-01-11 14:51:50,007 | ERROR | Error accessing Crypto data for symbol: name 'yf' is not defined
+2026-01-11 14:51:50,009 | WARNING | Some market data could not be accessed.
+2026-01-11 14:53:04,734 | ERROR | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: RESLI.NS"}}}
+2026-01-11 14:53:06,092 | ERROR | $RESLI.NS: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-01-11 14:53:06,095 | ERROR | 
+1 Failed download:
+2026-01-11 14:53:06,097 | ERROR | ['RESLI.NS']: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-01-11 14:53:06,139 | WARNING | NSE data not accessible for symbol:
+2026-01-11 14:53:08,028 | WARNING | Some market data could not be accessed.
+2026-01-12 04:44:30,632 | ERROR | $^NSEBANK: possibly delisted; no price data found  (5m 2023-04-17 18:32:25.941282 -> 2026-01-11 18:32:25.941282) (Yahoo error = "5m data not available for startTime=1681736545 and endTime=1768136545. The requested range must be within the last 60 days.")
+2026-01-12 04:44:30,674 | ERROR | 
+1 Failed download:
+2026-01-12 04:44:30,682 | ERROR | ['^NSEBANK']: possibly delisted; no price data found  (5m 2023-04-17 18:32:25.941282 -> 2026-01-11 18:32:25.941282) (Yahoo error = "5m data not available for startTime=1681736545 and endTime=1768136545. The requested range must be within the last 60 days.")
+2026-01-12 04:44:32,216 | ERROR | $^NSEI: possibly delisted; no price data found  (5m 2023-04-17 18:32:25.941282 -> 2026-01-11 18:32:25.941282) (Yahoo error = "5m data not available for startTime=1681736545 and endTime=1768136545. The requested range must be within the last 60 days.")
+2026-01-12 04:44:32,237 | ERROR | 
+1 Failed download:
+2026-01-12 04:44:32,239 | ERROR | ['^NSEI']: possibly delisted; no price data found  (5m 2023-04-17 18:32:25.941282 -> 2026-01-11 18:32:25.941282) (Yahoo error = "5m data not available for startTime=1681736545 and endTime=1768136545. The requested range must be within the last 60 days.")
+2026-01-12 17:44:30,947 | ERROR | $^NSEBANK: possibly delisted; no price data found  (5m 2024-08-30 17:44:06.094110 -> 2026-01-12 17:44:06.094110) (Yahoo error = "5m data not available for startTime=1725020046 and endTime=1768220046. The requested range must be within the last 60 days.")
+2026-01-12 17:44:30,959 | ERROR | 
+1 Failed download:
+2026-01-12 17:44:30,964 | ERROR | ['^NSEBANK']: possibly delisted; no price data found  (5m 2024-08-30 17:44:06.094110 -> 2026-01-12 17:44:06.094110) (Yahoo error = "5m data not available for startTime=1725020046 and endTime=1768220046. The requested range must be within the last 60 days.")
+2026-01-12 17:44:33,182 | ERROR | $^NSEI: possibly delisted; no price data found  (5m 2024-08-30 17:44:06.094110 -> 2026-01-12 17:44:06.094110) (Yahoo error = "5m data not available for startTime=1725020046 and endTime=1768220046. The requested range must be within the last 60 days.")
+2026-01-12 17:44:33,204 | ERROR | 
+1 Failed download:
+2026-01-12 17:44:33,205 | ERROR | ['^NSEI']: possibly delisted; no price data found  (5m 2024-08-30 17:44:06.094110 -> 2026-01-12 17:44:06.094110) (Yahoo error = "5m data not available for startTime=1725020046 and endTime=1768220046. The requested range must be within the last 60 days.")
+2026-01-12 17:45:20,275 | ERROR | $^NSEBANK: possibly delisted; no price data found  (5m 2025-11-13 17:45:11.375359 -> 2026-01-12 17:45:11.375359) (Yahoo error = "5m data not available for startTime=1763036111 and endTime=1768220111. The requested range must be within the last 60 days.")
+2026-01-12 17:45:20,288 | ERROR | 
+1 Failed download:
+2026-01-12 17:45:20,297 | ERROR | ['^NSEBANK']: possibly delisted; no price data found  (5m 2025-11-13 17:45:11.375359 -> 2026-01-12 17:45:11.375359) (Yahoo error = "5m data not available for startTime=1763036111 and endTime=1768220111. The requested range must be within the last 60 days.")
+2026-01-12 17:45:22,108 | ERROR | $^NSEI: possibly delisted; no price data found  (5m 2025-11-13 17:45:11.375359 -> 2026-01-12 17:45:11.375359) (Yahoo error = "5m data not available for startTime=1763036111 and endTime=1768220111. The requested range must be within the last 60 days.")
+2026-01-12 17:45:22,117 | ERROR | 
+1 Failed download:
+2026-01-12 17:45:22,119 | ERROR | ['^NSEI']: possibly delisted; no price data found  (5m 2025-11-13 17:45:11.375359 -> 2026-01-12 17:45:11.375359) (Yahoo error = "5m data not available for startTime=1763036111 and endTime=1768220111. The requested range must be within the last 60 days.")
