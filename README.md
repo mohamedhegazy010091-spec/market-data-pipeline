@@ -146,63 +146,38 @@ These visualizations help validate data quality and analytical results.
 ```
 market-data-pipeline/
 │
-├── Day_2_Stock_Data/
-│   ├── Day_2_Stock_Data_Collection.ipynb
-│   ├── BankNifty_1000_Sessions.csv
-│   └── Sensex_1000_Sessions.csv
+├── data-raw/
+│   └── Raw market data collected directly from data sources
+│      (Stocks, Crypto, Forex before any cleaning or processing)
 │
-├── Day_3_Crypto_Forex_Data/
-│   └── Day_3_Crypto_Forex_Data_Collection.ipynb
-│
-├── Day_4_Cleaned_Data/
-│   └── Day_4_Data_Cleaning_&_Validation.ipynb
+├── data-clean/
+│   └── Cleaned and validated datasets after preprocessing
+│      (structured, consistent, ready for analysis)
 │
 ├── notebooks/
+│   ├── Day_2_Stock_Data_Collection.ipynb
+│   ├── Day_3_Crypto_Forex_Data_Collection.ipynb
+│   ├── Day_4_Data_Cleaning_Validation.ipynb
 │   ├── Day_5_Basic_Technical_Analysis.ipynb
-│   ├── Day_6_Anomaly_Detection_Prep.ipynb
-│   ├── day1_api_connectivity.ipynb
-│   └── banknifty_sensex_opening_data.ipynb
+│   ├── Day_6_Anomaly_Detection_Preprocessing.ipynb
+│   └── Day_7_Pipeline_Overview.ipynb
 │
 ├── reports/
-│   ├── Day_2_StockData_Verification_Report.pdf
-│   └── Day_2_StockData_Verification_Report.pbix
+│   ├── Data_Verification_Report.pdf
+│   └── PowerBI_Validation_Report.pbix
 │
-├── data_exports/
-│   └── Day_2_Stock_Data.rar
+├── requirements.txt
+│   └── Python dependencies required to run the project
 │
 ├── .gitignore
+│   └── Git ignore rules for logs, temporary files, and local artifacts
+│
 ├── app.log
-├── requirements.txt
+│   └── Application log file generated during execution
+│
 └── README.md
+    └── Project documentation and overview
 ```
-
----
-
-### 📌 Folder Description
-
-* **Day_2_Stock_Data/**
-  Stock market data collection notebooks and exported CSV files.
-
-* **Day_3_Crypto_Forex_Data/**
-  Cryptocurrency and forex historical data collection.
-
-* **Day_4_Cleaned_Data/**
-  Cleaned and validated datasets with consistent structure.
-
-* **notebooks/**
-  Technical analysis, anomaly detection, and utility notebooks.
-
-* **reports/**
-  PDF and Power BI reports used for validation and documentation.
-
-* **data_exports/**
-  Archived data outputs for sharing or backup.
-
-* **requirements.txt**
-  Python dependencies required to run the project.
-
-* **app.log**
-  Execution logs generated during data processing.
 
 ---
 
